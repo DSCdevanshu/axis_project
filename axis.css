@@ -4,49 +4,29 @@
     text-align: center;
 }
 
-.container {
-    display: flex;
-    align-item: top;
-    justify-content: center;
-}
-
 .role {
-    float: left;
-    width: 43.33%;
-    padding: 5px;
+    margin: auto;
+    display: inline;
+    padding-top: 20px;
 }
 
-.teacher::after {
-    content: " ";
-    clear: both;
-    display: table;
+.some {
+    display: inline;
+    width: fit-content;
+    margin: auto;
 }
 
-.role {
-    display: flex;
+.none {
+    width: min-content;
 }
 
-.teacher {
-    flex: 23.33%;
-    padding: 0px;
+
+/* #student {
+    width: 10%;
+    height: 10%;
 }
 
-.block {
-    position: absolute;
-    bottom: 0px;
-    left: 80px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.blockb {
-    position: absolute;
-    bottom: 50px;
-    left: 300px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+#faculty {
+    width: 10%;
+    height: 10%;
+} */
