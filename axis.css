@@ -1,0 +1,52 @@
+.system {
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-item: top;
+    justify-content: center;
+}
+
+.role {
+    float: left;
+    width: 43.33%;
+    padding: 5px;
+}
+
+.teacher::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.role {
+    display: flex;
+}
+
+.teacher {
+    flex: 23.33%;
+    padding: 0px;
+}
+
+.block {
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.blockb {
+    position: absolute;
+    bottom: 50px;
+    left: 300px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
